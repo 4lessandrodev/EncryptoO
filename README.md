@@ -82,14 +82,17 @@ const secret = Encryptoo.getSecret(serverPublicKey);
 ```
 
 ## Caracteristicas 
- - Troca de chaves Diffie Hellaman
+ - Troca de chaves Diffie Hellman
  - Criptografia AES
 ## Atualizações futuras
 
-- [ ] Adicionar suporte para Typescript.
+- [x] Adicionar suporte para Typescript.
 - [x] Adicionar método de sign - Implementado por @fgalmeida
 - [ ] Adicionar criptografia RSA.
 ## Notas de Atualizações
+
+### 1.0.8 ✅
+- Implementação de types e suporte para typescript
 ### 1.0.7 ✅
 - Implementação do metodo de compare(sign) para verificar se aquele criptograma realmente foi crifrado por o sistema devido.
 - Foi adicionado os metodos de inserção de um segredo criptografico e a sua visualização
